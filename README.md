@@ -14,6 +14,11 @@ Ces exemples ont vocation à se familiariser avec docker à l'aide d'un bac à s
 * [figlet-v1.md - Créer une image figlet basée sur debian](figlet-v1.md)
 * [figlet-v2.md - Créer une image figlet avec un entrypoint](figlet-v2.md)
 
+## Utiliser des applications sous forme de conteneur
+
+* [Docker - Utiliser l'image whoami et accéder au port 80](whoami-port.md)
+
+
 ## Voir aussi
 
 * [docs.docker.com - ](https://docs.docker.com/get-started/overview/)
