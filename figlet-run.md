@@ -26,7 +26,7 @@ apt-get install figlet
 figlet "It works!"
 ```
 
-## Résultat
+## Démonstration
 
-![figlet-run.svg](figlet-run.svg)
+Voir [figlet-run.svg](figlet-run.svg?raw=1)
 
