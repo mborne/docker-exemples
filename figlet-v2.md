@@ -18,4 +18,5 @@ docker run -ti figlet-v2 "It works!"
 
 ## Démonstration
 
-Voir [figlet-v2](figlet-v2.svg?raw=1)
+[![asciicast](https://asciinema.org/a/563580.svg)](https://asciinema.org/a/563580)
+

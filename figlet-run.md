@@ -14,10 +14,6 @@
 |___|\__|   \_/\_/ \___/|_|  |_|\_\___/
 ```
 
-## Démonstration
-
-![figlet-run.svg](figlet-run.svg)
-
 ## Instructions
 
 ```bash
@@ -29,3 +25,7 @@ apt-get install figlet
 # Test de figlet
 figlet "It works!"
 ```
+
+## Démonstration
+
+[![asciicast](https://asciinema.org/a/563580.svg)](https://asciinema.org/a/563580)
