@@ -2,7 +2,7 @@
 
 ## Principe
 
-* Création d'un fichier [figlet-image/Dockerfile](figlet-image/Dockerfile) donnant les instructions pour construire l'image
+* Création d'un fichier [figlet-v1/Dockerfile](figlet-v1/Dockerfile) donnant les instructions pour construire l'image
 * Construction de l'image
 * Test de l'image
 
@@ -10,12 +10,12 @@
 
 ```bash
 # construction de l'image
-cd figlet-image
-docker build -t figlet .
+cd figlet-v1
+docker build -t figlet-v1 .
 # test de l'image
-docker run -ti figlet /usr/bin/figlet "It works!"
+docker run -ti figlet-v1 /usr/bin/figlet "It works!"
 ```
 
 ## Résultat
 
-![figlet-image](figlet-image.svg)
+![figlet-v1](figlet-v1.svg)

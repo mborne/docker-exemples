@@ -2,7 +2,7 @@
 
 ## Principe
 
-* Création d'un fichier [figlet-entrypoint/Dockerfile](figlet-entrypoint/Dockerfile) donnant les instructions pour construire l'image
+* Création d'un fichier [figlet-v2/Dockerfile](figlet-v2/Dockerfile) donnant les instructions pour construire l'image
 * Construction de l'image
 * Test de l'image
 
@@ -18,4 +18,4 @@ docker run -ti figlet-v2 "It works!"
 
 ## Résultat
 
-![figlet-image](figlet-image.svg)
+![figlet-v2](figlet-v2.svg)
