@@ -16,6 +16,6 @@ docker build -t figlet-v1 .
 docker run -ti figlet-v1 /usr/bin/figlet "It works!"
 ```
 
-## Résultat
+## Démonstration
 
-![figlet-v1](figlet-v1.svg)
+Voir [figlet-v1.svg](figlet-v1.svg?raw=1)
