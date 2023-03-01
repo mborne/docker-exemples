@@ -29,3 +29,8 @@ figlet "It works!"
 ## Démonstration
 
 [![asciicast](https://asciinema.org/a/563580.svg)](https://asciinema.org/a/563580)
+
+## Ressources
+
+* [docs.docker.com - Docker (CLI) - docker run](https://docs.docker.com/engine/reference/commandline/run/)
+

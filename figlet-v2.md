@@ -20,3 +20,9 @@ docker run -ti figlet-v2 "It works!"
 
 [![asciicast](https://asciinema.org/a/563580.svg)](https://asciinema.org/a/563580)
 
+
+## Ressources
+
+* [docs.docker.com - Docker (CLI) - docker run](https://docs.docker.com/engine/reference/commandline/run/)
+* [docs.docker.com - Docker (CLI) - docker build](https://docs.docker.com/engine/reference/commandline/build/)
+* [docs.docker.com - Dockerfile reference - ENTRYPOINT](https://docs.docker.com/engine/reference/builder/#entrypoint)

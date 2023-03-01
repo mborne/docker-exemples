@@ -20,3 +20,8 @@ docker run -ti figlet-v1 /usr/bin/figlet "It works!"
 
 [![asciicast](https://asciinema.org/a/563581.svg)](https://asciinema.org/a/563581)
 
+
+## Ressources
+
+* [docs.docker.com - Docker (CLI) - docker run](https://docs.docker.com/engine/reference/commandline/run/)
+* [docs.docker.com - Docker (CLI) - docker build](https://docs.docker.com/engine/reference/commandline/build/)
