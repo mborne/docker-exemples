@@ -6,7 +6,7 @@ Ces exemples ont vocations à être des annexes de la rubrique [mborne/cours-dev
 
 ## Mise en garde
 
-Ces exemples ont vocation à se familiariser avec docker à l'aide d'un bac à sable tel [labs.play-with-docker.com](https://labs.play-with-docker.com/). Ils devront être adaptés pour [travailler derrière un proxy](docs/travailler-avec-proxy.md).
+Ces exemples ont vocation à se familiariser avec docker à l'aide d'un bac à sable tel [labs.play-with-docker.com](https://labs.play-with-docker.com/). Ils devront être adaptés pour [travailler derrière un proxy](https://github.com/mborne/cours-devops/issues/11).
 
 ## Création de conteneurs
 
