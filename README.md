@@ -25,7 +25,7 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 
 > Objectifs : `docker run -d -p`
 
-* Docker - Utiliser l'image whoami et accéder au conteneur par son IP
+* [Docker - Utiliser l'image whoami et accéder au conteneur par son IP](whoami-ip.md)
 * [Docker - Utiliser l'image whoami et accéder au port 80](whoami-port.md)
 
 ## Utilisation de volumes
