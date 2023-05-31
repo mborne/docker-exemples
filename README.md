@@ -30,11 +30,18 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 
 ## Utilisation de volumes
 
-> Objectif : `docker run -v` et `docker cp`
+> Objectif : `docker run -v` avec volume mappé et volume nommé
 
-* Docker - Utiliser l'image nginx pour servir des fichiers
-* Docker - Étendre l'image nginx et construire l'image d'un site statique
-* Docker - Utiliser l'image PostgreSQL
+* [Docker - Utiliser l'image nginx pour servir des fichiers locaux](nginx-v1.md)
+* [Docker - Utiliser l'image PostgreSQL en externalisant les données](postgres.md)
+
+## Création d'images pour des services
+
+> Objectif : `docker build` et exemples concrets
+
+* Docker - construire une image pour un site statique
+* Docker - construire une image pour une application NodeJS
+* Docker - construire une image pour une application PHP
 
 ## Voir aussi
 
