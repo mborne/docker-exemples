@@ -41,7 +41,7 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 > Objectif : `docker build` et exemples concrets
 
 * [Docker - construire une image pour un site statique](static-v1.md)
-* Docker - construire une image pour une application NodeJS
+* [Docker - construire une image pour une application NodeJS](nodejs-v1.md)
 * Docker - construire une image pour une application PHP
 
 ## Voir aussi
