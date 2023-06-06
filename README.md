@@ -18,6 +18,7 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 
 > Objectifs : `docker build`
 
+* [figlet-v0.md - Créer une image figlet basée sur debian (sans optimisation)](figlet-v0.md)
 * [figlet-v1.md - Créer une image figlet basée sur debian](figlet-v1.md)
 * [figlet-v2.md - Créer une image figlet avec un entrypoint](figlet-v2.md)
 
@@ -39,7 +40,7 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 
 > Objectif : `docker build` et exemples concrets
 
-* Docker - construire une image pour un site statique
+* [Docker - construire une image pour un site statique](static-v1.md)
 * Docker - construire une image pour une application NodeJS
 * Docker - construire une image pour une application PHP
 

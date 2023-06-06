@@ -10,4 +10,25 @@
 
 ## Instructions
 
-TODO
+```bash
+# création du volume nommé
+docker volume create postgres-15
+
+# montage du volume nommé
+docker run -d --name pg15 \
+    -v postgres-15:/var/lib/postgresql/data \
+    -e POSTGRES_PASSWORD=ChangeIt \
+    postgres:15
+```
+
+Pour créer une base :
+
+```bash
+sudo docker exec -ti pg15 /bin/bash
+
+# Dans le conteneur
+su postgres
+createdb test
+```
+
+
