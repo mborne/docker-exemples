@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-v1",
+  "version": "1.0.0",
+  "description": "sample nodejs app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

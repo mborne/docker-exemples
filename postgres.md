@@ -11,7 +11,7 @@
 ## Instructions
 
 ```bash
-# création du volume nommé
+# création du volume nommé
 docker volume create postgres-15
 
 # montage du volume nommé
@@ -26,7 +26,7 @@ Pour créer une base :
 ```bash
 sudo docker exec -ti pg15 /bin/bash
 
-# Dans le conteneur
+# Dans le conteneur
 su postgres
 createdb test
 ```
