@@ -36,6 +36,16 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 * [nginx-v1.md - Utiliser l'image nginx pour servir des fichiers locaux](nginx-v1.md)
 * [postgres.md - Utiliser l'image PostgreSQL en externalisant les données](postgres.md)
 
+## Observabilité
+
+> Objectifs : `docker logs -f` et `docker stats`
+
+* Démarrer à nouveau [nginx-v1](nginx-v1.md)
+* Ouvrir http://localhost:8888/ et http://localhost:8888/not-found
+* Utiliser [docker logs nginx-v1](https://docs.docker.com/engine/reference/commandline/logs/) pour visualiser les **journaux applicatifs** correspondant (ajouter `-f` pour suivre)
+* Utiliser [docker stats](https://docs.docker.com/engine/reference/commandline/stats/) pour visualiser les **métriques systèmes** (CPU, mémoire, entrées/sorties réseaux et disques)
+
+
 ## Création d'images pour des services
 
 > Objectif : `docker build` et exemples concrets
