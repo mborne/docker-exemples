@@ -10,13 +10,13 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 
 ## Création de conteneurs
 
-> Objectifs : `docker run --rm -ti`
+> Objectifs : `docker run --rm -ti`, isolation des processus
 
 * [figlet-run.md - Installer et tester figlet dans un conteneur](figlet-run.md)
 
 ## Création d'images
 
-> Objectifs : `docker build`
+> Objectifs : `Dockerfile` et `docker build`
 
 * [figlet-v0.md - Créer une image figlet basée sur debian (sans optimisation)](figlet-v0.md)
 * [figlet-v1.md - Créer une image figlet basée sur debian](figlet-v1.md)
@@ -43,7 +43,7 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 * [static-v1 - construire une image pour un site statique](static-v1.md)
 * [nodejs-v1 - construire une image pour une application NodeJS](nodejs-v1.md)
 * [nodejs-v2 - construire une image pour une application NodeJS avec une meilleure gestion du cache](nodejs-v2.md)
-* Docker - construire une image pour une application PHP
+* [php-basic-v1 - construire une image pour un site PHP (à l'ancienne)](php-basic-v1.md)
 
 ## Voir aussi
 
