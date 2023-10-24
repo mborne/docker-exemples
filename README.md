@@ -12,29 +12,30 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 
 > Objectifs : `docker run --rm -ti`, isolation des processus
 
-* [figlet-run.md - Installer et tester figlet dans un conteneur](figlet-run.md)
+* [pseudo-vm - création d'un conteneur jetable et inspection des processus](pseudo-vm.md)
+* [figlet-run - Installer et tester figlet dans un conteneur](figlet-run.md)
 
 ## Création d'images
 
 > Objectifs : `Dockerfile` et `docker build`
 
-* [figlet-v0.md - Créer une image figlet basée sur debian (sans optimisation)](figlet-v0.md)
-* [figlet-v1.md - Créer une image figlet basée sur debian](figlet-v1.md)
-* [figlet-v2.md - Créer une image figlet avec un entrypoint](figlet-v2.md)
+* [figlet-v0 - Créer une image figlet basée sur debian (sans optimisation)](figlet-v0.md)
+* [figlet-v1 - Créer une image figlet basée sur debian](figlet-v1.md)
+* [figlet-v2 - Créer une image figlet avec un entrypoint](figlet-v2.md)
 
 ## Accès aux services
 
 > Objectifs : `docker run -d -p`
 
-* [whoami-ip.md - Utiliser l'image whoami et accéder au conteneur par son IP](whoami-ip.md)
-* [whoami-port.md - Utiliser l'image whoami et accéder au port 80](whoami-port.md)
+* [whoami-ip - Utiliser l'image whoami et accéder au conteneur par son IP](whoami-ip.md)
+* [whoami-port - Utiliser l'image whoami et accéder au port 80](whoami-port.md)
 
 ## Utilisation de volumes
 
 > Objectif : `docker run -v` avec volume mappé et volume nommé
 
-* [nginx-v1.md - Utiliser l'image nginx pour servir des fichiers locaux](nginx-v1.md)
-* [postgres.md - Utiliser l'image PostgreSQL en externalisant les données](postgres.md)
+* [nginx-v1 - Utiliser l'image nginx pour servir des fichiers locaux](nginx-v1.md)
+* [postgres - Utiliser l'image PostgreSQL en externalisant les données](postgres.md)
 
 ## Observabilité
 
