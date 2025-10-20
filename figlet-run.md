@@ -17,8 +17,8 @@
 ## Instructions
 
 ```bash
-# Création d'un conteneur exécutant /bin/bash dans l'image debian:buster
-docker run --rm -ti debian:buster /bin/bash
+# Création d'un conteneur exécutant /bin/bash dans l'image ubuntu:22.04
+docker run --rm -ti ubuntu:22.04 /bin/bash
 # Installation de figlet dans le conteneur
 apt-get update
 apt-get install figlet
