@@ -46,7 +46,6 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 * Utiliser [docker logs nginx-v1](https://docs.docker.com/engine/reference/commandline/logs/) pour visualiser les **journaux applicatifs** correspondant (ajouter `-f` pour suivre)
 * Utiliser [docker stats](https://docs.docker.com/engine/reference/commandline/stats/) pour visualiser les **métriques systèmes** (CPU, mémoire, entrées/sorties réseaux et disques)
 
-
 ## Création d'images pour des services
 
 > Objectif : `docker build` et exemples concrets
@@ -55,6 +54,10 @@ Ils visent à se familiariser avec docker à l'aide d'un bac à sable tel [labs.
 * [nodejs-v1 - construire une image pour une application NodeJS](nodejs-v1.md)
 * [nodejs-v2 - construire une image pour une application NodeJS avec une meilleure gestion du cache](nodejs-v2.md)
 * [php-basic-v1 - construire une image pour un site PHP (à l'ancienne)](php-basic-v1.md)
+
+> Objectif : [multi-stage build](https://docs.docker.com/build/building/multi-stage/)
+
+* [ol-vite-v1 - construire un site statique dans une image NodeJS et copier le résultat dans une image nginx](ol-vite-v1/README.md) - [ol-vite-v1/Dockerfile](ol-vite-v1/Dockerfile)
 
 ## Voir aussi
 
