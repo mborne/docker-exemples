@@ -1,17 +1,16 @@
-FROM node:16
-
-RUN mkdir -p /opt/nodejs-v2 && chown -R node:node /opt/nodejs-v2
+FROM node:22-alpine
 
 WORKDIR /opt/nodejs-v2
-USER node
 
 # téléchargement des dépendances
-COPY package.json .
+COPY package.json package-lock.json .
 RUN npm install
 
 # puis copie des autres fichiers...
 COPY . .
 
+# bascule utilisateur non root pour exécution
+USER node
 EXPOSE 3000
 CMD ["node","server.js"]
 

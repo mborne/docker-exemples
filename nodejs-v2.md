@@ -28,5 +28,6 @@ docker rm -f nodejs-v2
 
 ## Remarques
 
-Le fichier [nodejs-v2/Dockerfile](nodejs-v2/Dockerfile) n'est pas optimal. La présence d'une seule couche pour l'ajout de `package.json` induit l’absence de cache sur `npm install` à la construction.
+Avec cette approche, [nodejs-v2/Dockerfile](nodejs-v2/Dockerfile) permet une meilleure exploitation des mécanismes de cache à la construction que dans le cas [nodejs-v1/Dockerfile](nodejs-v1/Dockerfile)
 
+En effet, le téléchargement des dépendances n'interviendra que lorsque que package.json ou package-lock.json sont modifiés. Les modifications du code (ex : changement sur server.js) n'induiront pas un nouveau téléchargement des dépendances.
