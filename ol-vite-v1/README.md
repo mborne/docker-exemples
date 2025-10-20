@@ -15,6 +15,8 @@ npm run build
 
 ## Utilisation avec docker
 
+Voir [ol-vite-v1/Dockerfile](Dockerfile) et utiliser les commandes suivantes :
+
 ```bash
 # construction de l'image dans le dossier ol-vite-v1
 cd ol-vite-v1
